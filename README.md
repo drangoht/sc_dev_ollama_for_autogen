@@ -8,7 +8,7 @@ Step 3: Install Python depnednecies and vscode extensions
 
 >> python --version
 
-    Python 3.12.6
+    Python 3.11.6
 
 >> cat /etc/os-release
 
