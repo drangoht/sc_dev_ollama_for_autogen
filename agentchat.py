@@ -3,7 +3,8 @@ from autogen import AssistantAgent, UserProxyAgent, ConversableAgent
 local_llm_config = {
     "config_list": [
         {
-            "model": "llama3.2",  #
+
+            "model": "gemma3:12b",  #
             "api_key": "ollama",  #
             "base_url": "http://localhost:11434/v1",  # Ton URL
             # Mets le prix par 1K tokens [prompt, réponse] comme gratuit !
@@ -25,7 +26,7 @@ philosopher = ConversableAgent(
 guy = ConversableAgent(
     name="Dumb_Thinker",
     llm_config=local_llm_config,
-    system_message="Tu es un idiot qui ne connaît rien sauf les blagues sales et la bière."
+    system_message="Tu es jean-claude Vandamme."
 )
 
 # Crée l’agent qui représente l’utilisateur dans la conversation.

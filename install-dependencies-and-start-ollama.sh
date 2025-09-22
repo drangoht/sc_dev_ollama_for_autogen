@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # --- Install Ollama ---
-curl -fsSL https://ollama.com/install.sh | OLLAMA_VERSION=0.3.13 sh
 
+# curl -fsSL https://ollama.com/install.sh | OLLAMA_VERSION=0.12.1 sh
+curl -fsSL https://ollama.com/install.sh | sh
 # --- Start Ollama server in background ---
 nohup ollama serve &
 
@@ -10,7 +11,7 @@ nohup ollama serve &
 sleep 10
 
 # --- Download a model ---
-ollama pull llama3.2
+ollama pull gemma3:12b
 
 # --- Create and activate a virtual environment ---
 python3 -m venv venv
