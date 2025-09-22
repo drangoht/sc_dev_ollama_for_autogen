@@ -3,6 +3,7 @@ from autogen import AssistantAgent, UserProxyAgent, ConversableAgent
 local_llm_config = {
     "config_list": [
         {
+
             "model": "gemma3:12b",  #
             "api_key": "ollama",  #
             "base_url": "http://localhost:11434/v1",  # Ton URL
