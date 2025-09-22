@@ -1,10 +1,11 @@
-Step 1: Install Docker Desktop along with vsc and devcontainers
+[source](https://collabnix.com/running-ai-agents-locally-with-ollama-and-autogen/)
 
-Step 2: Install ollama
+Need extenstion [Dev containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) on VS Code
 
-Step 3: Install Python depnednecies and vscode extensions
+Be sure you open new terminal, it must be in virtual env:
+>> (venv) ) vscode ➜ /workspaces/sc_dev_ollama_for_autogen (master) $ 
 
-
+Vérifications:
 
 >> python --version
 
