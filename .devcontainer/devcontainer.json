@@ -1,7 +1,7 @@
 {
 	"name": "Python 3",
 	"build": { "dockerfile": "Dockerfile" },
-"postCreateCommand": "bash install-dependencies.sh",
+"postCreateCommand": "bash install-dependencies-and-start-ollama.sh",
   "customizations": {
     "vscode": {
       "extensions": ["ms-toolsai.jupyter"]

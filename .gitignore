@@ -1,0 +1,4 @@
+﻿venv
+.cache
+ollama.log
+nohup.out
